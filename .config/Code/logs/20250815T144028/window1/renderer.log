@@ -1,0 +1,12 @@
+2025-08-15 14:40:29.499 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vsliveshare.vsliveshare' wants API proposal 'notebookCellExecutionState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-08-15 14:40:29.515 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.gather' wants API proposal 'notebookCellExecutionState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-08-15 14:40:29.515 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.vscode-pylance' wants API proposal 'mcpConfigurationProvider' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-08-15 14:40:30.285 [info] Started local extension host with pid 60295.
+2025-08-15 14:40:31.957 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2025-08-15 14:40:35.587 [error] Error while getting the latest version for the extension mrcrowl.hg from https://marketplace.visualstudio.com/_apis/public/gallery/vscode/{publisher}/{name}/latest. Trying the fallback https://www.vscode-unpkg.net/_gallery/{publisher}/{name}/latest Canceled
+2025-08-15 14:40:35.587 [error] Error while getting the latest version for the extension vscodevim.vim from https://marketplace.visualstudio.com/_apis/public/gallery/vscode/{publisher}/{name}/latest. Trying the fallback https://www.vscode-unpkg.net/_gallery/{publisher}/{name}/latest Canceled
+2025-08-15 14:40:35.587 [error] Error while getting the latest version for the extension eamodio.gitlens from https://marketplace.visualstudio.com/_apis/public/gallery/vscode/{publisher}/{name}/latest. Trying the fallback https://www.vscode-unpkg.net/_gallery/{publisher}/{name}/latest Canceled
+2025-08-15 14:40:35.589 [error] Error while getting the latest version for the extension mrcrowl.hg. Canceled
+2025-08-15 14:40:35.589 [error] Error while getting the latest version for the extension vscodevim.vim. Canceled
+2025-08-15 14:40:35.589 [error] Error while getting the latest version for the extension eamodio.gitlens. Canceled
+2025-08-15 14:40:38.342 [info] [perf] Render performance baseline is 24ms

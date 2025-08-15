@@ -1,0 +1,9 @@
+
+[Default Applications]
+inode/directory=thunar.desktop
+application/x-wayland-gnome-saved-search=thunar.desktop
+
+text/plain=code.desktop
+text/x-csrc=code.desktop
+text/x-c++src=code.desktop
+application/x-shellscript=code.desktop

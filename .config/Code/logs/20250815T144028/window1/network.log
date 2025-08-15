@@ -1,0 +1,7 @@
+2025-08-15 14:40:35.586 [error] #1: https://marketplace.visualstudio.com/_apis/public/gallery/vscode/mrcrowl/hg/latest - error GET Canceled
+2025-08-15 14:40:35.586 [error] #2: https://marketplace.visualstudio.com/_apis/public/gallery/vscode/vscodevim/vim/latest - error GET Canceled
+2025-08-15 14:40:35.587 [error] #3: https://marketplace.visualstudio.com/_apis/public/gallery/vscode/eamodio/gitlens/latest - error GET Canceled
+2025-08-15 14:40:35.588 [error] #10: https://www.vscode-unpkg.net/_gallery/mrcrowl/hg/latest - error GET Canceled
+2025-08-15 14:40:35.588 [error] #11: https://www.vscode-unpkg.net/_gallery/vscodevim/vim/latest - error GET Canceled
+2025-08-15 14:40:35.588 [error] #12: https://www.vscode-unpkg.net/_gallery/eamodio/gitlens/latest - error GET Canceled
+2025-08-15 14:40:35.590 [error] #13: https://marketplace.visualstudio.com/_apis/public/gallery/extensionquery - error POST Canceled

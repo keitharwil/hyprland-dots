@@ -1,0 +1,6 @@
+2025/08/13-15:50:24.672 1b64 Reusing MANIFEST /home/keitharwil/.config/discord/Local Storage/leveldb/MANIFEST-000001
+2025/08/13-15:50:24.697 1b64 Recovering log #7
+2025/08/13-15:50:24.698 1b64 Reusing old log /home/keitharwil/.config/discord/Local Storage/leveldb/000007.log 
+2025/08/13-15:58:51.753 1b65 Level-0 table #11: started
+2025/08/13-15:58:51.774 1b65 Level-0 table #11: 1573706 bytes OK
+2025/08/13-15:58:51.775 1b65 Delete type=0 #7

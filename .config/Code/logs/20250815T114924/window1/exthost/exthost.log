@@ -1,0 +1,12 @@
+2025-08-15 11:49:28.192 [info] Extension host with pid 20349 started
+2025-08-15 11:49:28.393 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-08-15 11:49:28.455 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-08-15 11:49:28.672 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-08-15 11:49:28.732 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-08-15 11:49:28.838 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-08-15 11:49:29.104 [info] Eager extensions activated
+2025-08-15 11:49:29.121 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-08-15 11:49:29.125 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-08-15 11:49:29.173 [info] ExtensionService#_doActivateExtension Catppuccin.catppuccin-vsc, startup: false, activationEvent: 'onStartupFinished'
+2025-08-15 11:49:44.153 [info] Extension host terminating: renderer closed the MessagePort
+2025-08-15 11:49:44.192 [info] Extension host with pid 20349 exiting with code 0

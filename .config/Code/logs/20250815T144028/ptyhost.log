@@ -1,0 +1,1 @@
+2025-08-15 14:46:15.524 [error] Failed to set sticky bit on /tmp/keitharwil-code-zsh: Error: ENOENT: no such file or directory, chmod '/tmp/keitharwil-code-zsh'

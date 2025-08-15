@@ -1,0 +1,127 @@
+{
+    "telemetry.sqmId": "",
+    "telemetry.machineId": "a8c7a7cacf98df60495c9c226bd7fa50719f7a82af0fed0e2605ba760b6ac554",
+    "telemetry.devDeviceId": "857127a8-d170-4ae1-9120-732a836cbb6c",
+    "backupWorkspaces": {
+        "workspaces": [],
+        "folders": [
+            {
+                "folderUri": "file:///home/keitharwil/.ssh"
+            },
+            {
+                "folderUri": "file:///home/keitharwil/MYSHIT/repos/hyprland-dots"
+            }
+        ],
+        "emptyWindows": [
+            {
+                "backupFolder": "1755229765971"
+            }
+        ]
+    },
+    "windowControlHeight": 35,
+    "profileAssociations": {
+        "workspaces": {
+            "file:///home/keitharwil": "__default__profile__",
+            "file:///home/keitharwil/.config": "__default__profile__",
+            "file:///home/keitharwil/.config/kitty/kitty-themes": "__default__profile__",
+            "file:///home/keitharwil/.config/hypr": "__default__profile__",
+            "file:///home/keitharwil/.config/hypr/UserScripts": "__default__profile__",
+            "file:///home/keitharwil/.config/waybar": "__default__profile__",
+            "file:///home/keitharwil/.config/hypr/UserConfigs": "__default__profile__",
+            "file:///home/keitharwil/.ssh": "__default__profile__",
+            "file:///home/keitharwil/MYSHIT/repos/hyprland-dots": "__default__profile__"
+        },
+        "emptyWindows": {
+            "1755229765971": "__default__profile__"
+        }
+    },
+    "theme": "vs-dark",
+    "themeBackground": "#24273a",
+    "windowSplash": {
+        "zoomLevel": 0,
+        "baseTheme": "vs-dark",
+        "colorInfo": {
+            "foreground": "#cad3f5",
+            "background": "#24273a",
+            "editorBackground": "#24273a",
+            "titleBarBackground": "#181926",
+            "titleBarBorder": "rgba(0, 0, 0, 0)",
+            "activityBarBackground": "#181926",
+            "activityBarBorder": "rgba(0, 0, 0, 0)",
+            "sideBarBackground": "#1e2030",
+            "sideBarBorder": "rgba(0, 0, 0, 0)",
+            "statusBarBackground": "#181926",
+            "statusBarBorder": "rgba(0, 0, 0, 0)",
+            "statusBarNoFolderBackground": "#181926",
+            "windowBorder": "rgba(0, 0, 0, 0)"
+        },
+        "layoutInfo": {
+            "sideBarSide": "right",
+            "editorPartMinWidth": 220,
+            "titleBarHeight": 35,
+            "activityBarWidth": 48,
+            "sideBarWidth": 0,
+            "auxiliaryBarWidth": 0,
+            "statusBarHeight": 22,
+            "windowBorder": false
+        }
+    },
+    "windowsState": {
+        "lastActiveWindow": {
+            "folder": "file:///home/keitharwil/MYSHIT/repos/hyprland-dots",
+            "backupPath": "/home/keitharwil/.config/Code/Backups/b7547ad1bc8e4ccc7bc12d3e7ee9d0fa",
+            "uiState": {
+                "mode": 0,
+                "x": 0,
+                "y": 0,
+                "width": 400,
+                "height": 322
+            }
+        },
+        "openedWindows": []
+    },
+    "windowSplashWorkspaceOverride": {
+        "layoutInfo": {
+            "sideBarWidth": 170,
+            "auxiliaryBarWidth": 236,
+            "workspaces": {
+                "910b8acfe6da89f2b9ff1edd98492476": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": true
+                },
+                "d04224d7da0cab3595b6f3e6c8704087": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "a0d0241111be433fc87e024c822154fc": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "0f724fe0eb47e3df34043516b98c9883": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "24170e0c6c0950788a7649dbdb57de7a": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "a9eef1f5da299269b68035106e6944ef": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "b47b8f47efd8ec8213810e735df02fbc": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "da8be5cd72aa53348b6a59662dcc9d6e": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "69fe9350c2c3e398aef1c4fcb8f2b441": {
+                    "sideBarVisible": false,
+                    "auxiliaryBarVisible": false
+                }
+            }
+        }
+    }
+}

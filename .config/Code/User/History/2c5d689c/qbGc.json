@@ -1,0 +1,30 @@
+{
+  "manifest_version": 2,
+  "name": "MingMingTab",
+  "version": "1.0.0",
+  "description": "Custom homepage and new tab page for Firefox",
+  
+  "chrome_url_overrides": {
+    "homepage": "newtab.html",
+    "chrome_url_overrides":{
+    "newtab": "newtab.html"
+    }
+  },
+  
+  "permissions": [
+    "storage"
+  ],
+  
+  "icons": {
+    "16": "images/icon.png",
+    "48": "images/icon.png",
+    "96": "images/icon.png"
+  },
+  
+  "applications": {
+    "gecko": {
+      "id": "mingmingtab@example.com",
+      "strict_min_version": "57.0"
+    }
+  }
+}

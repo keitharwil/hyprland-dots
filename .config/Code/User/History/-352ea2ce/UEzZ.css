@@ -1,0 +1,177 @@
+* {
+    border: none;
+    border-radius: 0;
+    font-family: "JetBrainsMono Nerd Font Propo", "JetBrainsMono Nerd Font", "Noto Sans", sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+    min-height: 0;
+}
+
+window#waybar {
+    background: rgba(20, 30, 50, 0.95);
+    color: #f4e8a6;
+    border-radius: 16px;
+    border: 2px solid rgba(244, 232, 166, 0.3);
+}
+
+tooltip {
+    background: #1e2a40;
+    border: 1px solid #f4e8a6;
+    border-radius: 8px;
+    color: #f4e8a6;
+}
+
+/* Workspaces */
+#workspaces {
+    background: linear-gradient(135deg, rgba(52, 84, 138, 0.6), rgba(32, 64, 108, 0.6));
+    margin: 4px;
+    padding: 0 8px;
+    border-radius: 12px;
+    border: 1px solid rgba(244, 232, 166, 0.2);
+}
+
+#workspaces button {
+    padding: 0 8px;
+    color: rgba(244, 232, 166, 0.7);
+    background: transparent;
+    border-radius: 8px;
+    transition: all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    opacity: 0.7;
+}
+
+#workspaces button:hover {
+    background: rgba(244, 232, 166, 0.1);
+    color: #f4e8a6;
+    box-shadow: 0 0 10px rgba(244, 232, 166, 0.3);
+    opacity: 1;
+}
+
+#workspaces button.active {
+    background: linear-gradient(135deg, #f4e8a6, #e6d278);
+    color: #1e2a40;
+    box-shadow: 0 0 15px rgba(244, 232, 166, 0.5);
+    opacity: 1;
+    animation: workspace-glow 0.5s ease-out;
+}
+
+#workspaces button.urgent {
+    background: #ff6b6b;
+    color: #ffffff;
+    animation: blink 1s ease-in-out infinite alternate;
+}
+
+@keyframes workspace-glow {
+    0% {
+        box-shadow: 0 0 5px rgba(244, 232, 166, 0.2);
+        opacity: 0.7;
+    }
+    50% {
+        box-shadow: 0 0 25px rgba(244, 232, 166, 0.8);
+        opacity: 1;
+    }
+    100% {
+        box-shadow: 0 0 15px rgba(244, 232, 166, 0.5);
+        opacity: 1;
+    }
+}
+
+@keyframes blink {
+    to {
+        background-color: #ff9999;
+    }
+}
+
+/* Window title */
+#window {
+    background: linear-gradient(135deg, rgba(32, 64, 108, 0.6), rgba(52, 84, 138, 0.6));
+    margin: 4px 0;
+    padding: 0 16px;
+    border-radius: 12px;
+    border: 1px solid rgba(244, 232, 166, 0.2);
+    color: #f4e8a6;
+    font-weight: normal;
+}
+
+/* Clock */
+#clock {
+    background: linear-gradient(135deg, rgba(244, 232, 166, 0.9), rgba(230, 210, 120, 0.9));
+    color: #1e2a40;
+    margin: 4px;
+    padding: 0 16px;
+    border-radius: 12px;
+    font-weight: bold;
+    box-shadow: 0 0 15px rgba(244, 232, 166, 0.4);
+}
+
+/* Right modules base styling */
+#pulseaudio,
+#network,
+#battery,
+#tray {
+    background: linear-gradient(135deg, rgba(52, 84, 138, 0.6), rgba(32, 64, 108, 0.6));
+    color: #f4e8a6;
+    margin: 4px 0px;
+    padding: 0 8px;
+    border-radius: 12px;
+    border: 1px solid rgba(244, 232, 166, 0.2);
+    transition: all 0.3s ease;
+}
+
+#pulseaudio:hover,
+#network:hover,
+#battery:hover {
+    background: linear-gradient(135deg, rgba(72, 104, 158, 0.8), rgba(52, 84, 138, 0.8));
+    box-shadow: 0 0 10px rgba(244, 232, 166, 0.3);
+}
+
+/* Battery specific states */
+#battery.charging {
+    background: linear-gradient(135deg, rgba(76, 175, 80, 0.6), rgba(56, 142, 60, 0.6));
+    color: #ffffff;
+}
+
+#battery.warning:not(.charging) {
+    background: linear-gradient(135deg, rgba(255, 152, 0, 0.8), rgba(255, 111, 0, 0.8));
+    color: #ffffff;
+    animation: battery-warning 2s ease-in-out infinite alternate;
+}
+
+#battery.critical:not(.charging) {
+    background: linear-gradient(135deg, rgba(244, 67, 54, 0.9), rgba(211, 47, 47, 0.9));
+    color: #ffffff;
+    animation: battery-critical 1s ease-in-out infinite alternate;
+}
+
+@keyframes battery-warning {
+    to {
+        background: linear-gradient(135deg, rgba(255, 193, 7, 0.9), rgba(255, 152, 0, 0.9));
+    }
+}
+
+@keyframes battery-critical {
+    to {
+        background: linear-gradient(135deg, rgba(255, 87, 34, 1), rgba(244, 67, 54, 1));
+        box-shadow: 0 0 20px rgba(244, 67, 54, 0.6);
+    }
+}
+
+/* Network states */
+#network.disconnected {
+    background: linear-gradient(135deg, rgba(158, 158, 158, 0.6), rgba(117, 117, 117, 0.6));
+    color: rgba(244, 232, 166, 0.7);
+}
+
+/* System tray */
+#tray > .passive {
+    -gtk-icon-effect: dim;
+}
+
+#tray > .needs-attention {
+    -gtk-icon-effect: highlight;
+    background-color: rgba(244, 232, 166, 0.2);
+    border-radius: 8px;
+}
+
+#cava_mviz{
+    margin-left: 10px;
+}
