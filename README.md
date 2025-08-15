@@ -1,1 +1,2 @@
-# hyprland-dots
+### hyprland-dots
+Personal Hyprland dots 
