@@ -1,2 +1,2 @@
-# hyprland-dots
-Personal Hyprland dots 
+# linux-dots
+Personal linux dots & configs
